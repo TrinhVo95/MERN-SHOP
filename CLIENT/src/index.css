@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navbar-height: 6rem;
+    --banner-height: calc(100vh - var(--navbar-height));
+  }
+}
+
+@layer components {
+  .icon {
+    height: 1.25rem;
+    aspect-ratio: 1/1;
+  }
+  .icon-sm {
+    height: 1rem;
+  }
+  .icon-lg {
+    height: 1.5rem;
+  }
+}
